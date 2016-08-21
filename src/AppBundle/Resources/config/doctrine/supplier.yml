@@ -1,0 +1,15 @@
+AppBundle\Entity\Supplier:
+    type: entity
+    table: supplier
+    id:
+        id:
+            type: integer
+            generator: { strategy: AUTO }
+    fields:
+        name:
+            type: string
+            length: 100
+        description:
+            type: text
+        enabled:
+            type: bool

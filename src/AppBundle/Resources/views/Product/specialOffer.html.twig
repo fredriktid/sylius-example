@@ -1,0 +1,7 @@
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% block content %}
+    <h1>Special offer. Buy this now!!</h1>
+    <h2>{{ product.name }}</h2>
+    <p>Only {{ product.price|sylius_price }}</p>
+{% endblock %}
